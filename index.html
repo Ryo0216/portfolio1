@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ポートフォリオ</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-800">
+    <header class="bg-blue-600 text-white py-4">
+        <div class="container mx-auto flex justify-between">
+            <h1 class="text-3xl font-bold">My Portfolio</h1>
+            <nav>
+                <a href="index.html" class="px-3">Home</a>
+                <a href="project1.html" class="px-3">Projects</a>
+                <a href="contact.html" class="px-3">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="opacity-0 translate-y-4 animate-fade-in">
+        <h2 class="text-4xl font-bold">ようこそ！</h2>
+    </div>
+    
+    <main class="container mx-auto my-10">
+        <section class="text-center">
+            <h2 class="text-4xl font-bold mb-4">自己紹介</h2>
+            <p>こんにちは！私はイマイリョウです。スキルはJavaScript、html、CSS、そしてウェブ開発全般です。</p>
+        </section>
+
+        <section class="my-10">
+            <h2 class="text-3xl font-bold">プロジェクト一覧</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-6">
+                <a href="https://ryo0216.github.io/todo/" class="block p-4 bg-white shadow hover:shadow-lg transition">
+                    <h3 class="text-xl font-bold">プロジェクト1</h3>
+                    <p>タスク管理アプリ。</p>
+                </a>
+                <a href="https://ryo0216.github.io/uranai/" class="block p-4 bg-white shadow hover:shadow-lg transition">
+                    <h3 class="text-xl font-bold">プロジェクト2</h3>
+                    <p>占いアプリ。</p>
+                </a>
+                <a href="https://ryo0216.github.io/typing-game/" class="block p-4 bg-white shadow hover:shadow-lg transition">
+                    <h3 class="text-xl font-bold">プロジェクト3</h3>
+                    <p>タイピングゲーム</p>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-gray-800 text-white text-center py-4">
+        <p>&copy; 2024 Ryo Imai</p>
+    </footer>
+</body>
+</html>
